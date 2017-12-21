@@ -1,0 +1,25 @@
+{
+  "name": "google-home-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google-home-messages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biofects/Google-Home-Messages"
+  },
+  "author": "Lee Thompson",
+  "keywords": [
+    "google home",
+    "messages"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "castv2-client": "^1.1.2",
+    "express": "^4.14.0",
+    "google-tts-api": "https://github.com/darrencruse/google-tts/tarball/british-voice"
+  }
+}

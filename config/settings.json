@@ -1,0 +1,7 @@
+{
+	"mytoken" : "Createastrongtoken", 
+	"lang" : "en-GB",
+	"speed" : 1,
+	"port" : 8092,
+	"debug" : "false"
+}
