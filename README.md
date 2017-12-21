@@ -74,8 +74,8 @@ sudo docker run -p 8092:8092 -d <user>/googlehomemessages
 ### Set up IFTTT with your Google Home
 
 Go to [IFTTT](https://ifttt.com)
-. For this I use wifi check.
-. For *That* choose: *Maker Webhooks*
+. For *THIS* I use wifi check.
+. For *THAT* choose: *Maker Webhooks*
     1. Choose *Make a web request*
     2. In *URL* enter:
       >YOUR_Public_iP/googlehomemessagesa
