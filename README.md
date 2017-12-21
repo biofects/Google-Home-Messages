@@ -4,7 +4,7 @@ Google Home Messages - Send Messages to a Google Home Device. Use this to create
 
 ## Getting Started
 
-Google Home Messages is written in NODE JS and will install all required packages as needed.
+Google Home Messages is written in Javascript for NodeJS and will install all required packages as needed.
 
 ### Prerequisites
 ```
