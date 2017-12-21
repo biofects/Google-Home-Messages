@@ -7,8 +7,6 @@ Google Home Messages - Send Messages to a Google Home Device. Use this to create
 Google Home Messages is written in NODE JS and will install all required packages as needed.
 
 ### Prerequisites
-
-
 ```
 nodejs --version
 v8.9.3
@@ -17,23 +15,20 @@ docker --version
 Docker version 17.09.1-ce, build 19e2cf6
 
 ```
-
 ## Installing
 
-
 ### Clone this repo
-```
-git clone <url>
 
 ```
+git clone https://github.com/biofects/Google-Home-Messages.git
 
+```
 ### Go into Google-Home-Messages 
 
 ```
 cd Google-Home-Messages
 
 ```
-
 ### Edit setting
 
 ```
@@ -49,7 +44,6 @@ vim config/settings.json
         "debug" : "true"
 ```
 
-
 ### Install the NodeJS App
 
 ```
@@ -58,11 +52,11 @@ npm install
 ```
 
 ### Test package
+
 ```
 npm start
 
 ```
-
 
 ### Build Docker Image if using Docker
 
