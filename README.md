@@ -8,10 +8,6 @@ Google Home Messages is written in NODE JS and will install all required package
 
 ### Prerequisites
 
-NODEJS
-Dokcer
-
-What things you need to install the software and how to install them
 
 ```
 nodejs --version
@@ -22,12 +18,13 @@ Docker version 17.09.1-ce, build 19e2cf6
 
 ```
 
-### Installing
+## Installing
 
 
 ### Clone this repo
 ```
 git clone <url>
+
 ```
 
 ### Go into Google-Home-Messages 
@@ -37,7 +34,7 @@ cd Google-Home-Messages
 
 ```
 
-###Edit setting
+### Edit setting
 
 ```
 vim config/settings.json
@@ -53,28 +50,28 @@ vim config/settings.json
 ```
 
 
-###Install the NodeJS App
+### Install the NodeJS App
 
 ```
 npm install
 
 ```
 
-###Test package
+### Test package
 ```
 npm start
 
 ```
 
 
-###Build Docker Image if using Docker
+### Build Docker Image if using Docker
 
 ```
 sudo docker build -t <user>/googlehomemessages  /pathe/to/Nodejs app/Google-Home-Messages/
 
 ```
 
-###Start Docker
+### Start Docker
 ```
 sudo docker run -p 8092:8092 -d <user>/googlehomemessages
 
@@ -91,25 +88,23 @@ Go to [IFTTT](https://ifttt.com)
     3. Post with JSON data
     4. {{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
 
-### Running the tests
+## Running the tests
 
 You can test this with Curl to ensure you are hearing the messages.
 
-### Contributing
+## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-
-### Authors
+## Authors
 
 * **Lee Thompson** - *Initial work*
 
-
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-### Acknowledgments
+## Acknowledgments
 
 * Inspiration
 https://github.com/noelportugal/google-home-notifier
