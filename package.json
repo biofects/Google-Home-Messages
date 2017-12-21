@@ -1,5 +1,5 @@
 {
-  "name": "google-home-messages-",
+  "name": "google-home-messages",
   "version": "1.0.0",
   "description": "",
   "main": "google-home-messages.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "git://github.com/biofects/Google-Home-Messages"
   },
   "author": "Lee Thompson",
   "keywords": [
