@@ -35,7 +35,6 @@ cd Google-Home-Messages
 vim config/settings.json
 
 ```
-
 ```
         "mytoken" : "CreateAGoodToken", 
         "lang" : "en",
@@ -76,11 +75,11 @@ sudo docker run -p 8092:8092 -d <user>/googlehomemessages
 Go to [IFTTT](https://ifttt.com)
 . For *THIS* I use wifi check.
 . For *THAT* choose: *Maker Webhooks*
-    1. Choose *Make a web request*
-    2. In *URL* enter:
-      >YOUR_Public_iP/googlehomemessagesa
-    3. Post with JSON data
-    4. {{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
+--    1. Choose *Make a web request*
+--    2. In *URL* enter:
+---      >YOUR_Public_iP/googlehomemessagesa
+--   3. Post with JSON data
+--    4. {{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
 
 ## Running the tests
 
