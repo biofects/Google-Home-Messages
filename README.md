@@ -1,10 +1,10 @@
 # Google Home Messages
 
-Google Home Messages - Send Messages to a Google Home Device. Use this to create events in IFTTT or schedule messages. This is Docker ready or stand alone NPM. I am running this on a raspberry PI
+Google Home Messages - Send Messages using tts to a Google Home Device. Use this to create events in IFTTT or schedule messages. This is Docker ready or stand alone NPM. I am running this on a Raspberry PI
 
 ## Getting Started
 
-Google Home Messages is written in Javascript for NodeJS and will install all required packages as needed.
+Google Home Messages is written in Javascript for NodeJS and will install all required packages as needed. This uses TTS to send messages to google home.
 
 ### Prerequisites
 ```
