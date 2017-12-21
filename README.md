@@ -73,13 +73,14 @@ sudo docker run -p 8092:8092 -d <user>/googlehomemessages
 ### Set up IFTTT with your Google Home
 ```
 Go to [IFTTT](https://ifttt.com)
-. For *THIS* I use wifi check.
-. For *THAT* choose: *Maker Webhooks*
---    1. Choose *Make a web request*
---    2. In *URL* enter:
----      >YOUR_Public_iP/googlehomemessagesa
---   3. Post with JSON data
---    4. {{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
+For *THIS* I use wifi check.
+For *THAT* choose: *Maker Webhooks*
+    1. Choose *Make a web request*
+    2. In *URL* enter:
+      >YOUR_Public_iP/googlehomemessagesa
+    3. Post with JSON data
+    4. Body 
+      >{{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
 ```
 ## Running the tests
 
@@ -93,10 +94,8 @@ You can test this with Curl to ensure you are hearing the messages.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
 * Inspiration
 https://github.com/noelportugal/google-home-notifier
 
-#### Donate to get geek stuff(sorry no beer here)
+* Donate to get geek stuff(sorry no beer here)
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
