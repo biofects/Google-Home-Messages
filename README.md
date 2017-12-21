@@ -61,7 +61,7 @@ npm start
 ### Build Docker Image if using Docker
 
 ```
-sudo docker build -t <user>/googlehomemessages  /pathe/to/Nodejs app/Google-Home-Messages/
+sudo docker build -t <user>/googlehomemessages  /path/to/Aapp/Google-Home-Messages/
 
 ```
 
