@@ -87,7 +87,7 @@ For *THAT* choose: *Maker Webhooks*
 You can test this with Curl to ensure you are hearing the messages.
 
 ## Authors
-```
+
 * **Lee Thompson** - *Initial work*
 
 ## License
@@ -98,4 +98,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 https://github.com/noelportugal/google-home-notifier
 
 #### Donate to get geek stuff(sorry no beer here)
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
