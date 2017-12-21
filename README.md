@@ -86,10 +86,6 @@ Go to [IFTTT](https://ifttt.com)
 
 You can test this with Curl to ensure you are hearing the messages.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 * **Lee Thompson** - *Initial work*
