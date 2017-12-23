@@ -79,7 +79,7 @@ For *THIS* I use wifi check.
 For *THAT* choose: *Maker Webhooks*
     1. Choose *Make a web request*
     2. In *URL* enter:
-      >YOUR_Public_iP/googlehomemessagesa
+      >YOUR_Public_iP/googlehomemessages
     3. Post with JSON data
     4. Body 
       >{{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
