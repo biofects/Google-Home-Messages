@@ -53,6 +53,6 @@ app.listen(serverPort, function () {
 	if (debug === "true"){
 		console.log('Make a POST request to this device');
 		console.log('example:');
-		console.log('curl -X POST  -H "Content-Type: application/json" -d \'{"token":"4HTczfqeW2F346PXsLAREeMQPCMHdjWE","text":"Hello Google Home","ipaddres":"=192.168.1.148"}\' http://192.168.1.113:8092/google-home-messages');
+		console.log('curl -X POST  -H "Content-Type: application/json" -d \'{"token":"yoursecuretoken","text":"Hello Google Home","ipaddres":"=192.168.1.148"}\' http://192.168.1.113:8092/google-home-messages');
 	}
 })
