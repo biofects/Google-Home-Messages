@@ -14,6 +14,8 @@ v8.9.3
 docker --version
 Docker version 17.09.1-ce, build 19e2cf6
 
+Port Forwarding needs to be set up on your netowrk in order to make the calls externally.
+
 ```
 ## Installing
 
@@ -82,7 +84,7 @@ For *THAT* choose: *Maker Webhooks*
       >YOUR_Public_iP/googlehomemessages
     3. Post with JSON data
     4. Body 
-      >{{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}}
+      >{"text":"Hello, From Biofects","ipaddress":"Internal ip of google home","token":"TokenFromSettings"}
 ```
 ## Running the tests
 
