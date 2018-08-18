@@ -90,9 +90,10 @@ For *THAT* choose: *Maker Webhooks*
 
 Using curl
 ```curl -d '{"text":"Hello, Lee. Have a nice day","ipaddress":"192.168.1.26","token":"hejd%ya83!!"}' -H "Content-Type: application/json" -X POST http://192.168.1.113:8092/google-home-messages
-192.168.1.26 will say: Hello, Lee. Have a nice day.```
+192.168.1.26 will say: Hello, Lee. Have a nice day.
+```
 
-*Thank you sepodele* [!(https://github.com/biofects/Google-Home-Messages/issues/3)]
+*Thank you sepodele* [![issue 3](https://github.com/biofects/Google-Home-Messages/issues/3)]
 On windows you need to use double quotes around the json.
 
 
