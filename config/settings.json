@@ -1,7 +1,7 @@
 {
-	"mytoken" : "Createastrongtoken", 
+	"mytoken" : "someSecr3c7!K#%",
 	"lang" : "en-GB",
 	"speed" : 1,
 	"port" : 8092,
-	"debug" : "false"
+	"debug" : "true"
 }
