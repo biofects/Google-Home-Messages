@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var config = require('./config/settings.json');
 var mytoken = config.mytoken;
 var debug = config.debug;
+var def_lang = config.lang;
 const serverPort = config.port;
 
 
@@ -21,8 +22,9 @@ app.post('/google-home-messages', function (req, res) {
 	if (!req.body) return res.sendStatus(400)
 		console.log(req.body);
 		var text = req.body.text;
-		var ipaddress = req.body.ipaddress
-		var token = req.body.token
+		var ipaddress = req.body.ipaddress;
+		var token = req.body.token;
+		var lang = req.body.lang;
 		if (!token || token === ""){
 			res.send("Please set a token");
 			if (debug === "true"){
@@ -37,9 +39,13 @@ app.post('/google-home-messages', function (req, res) {
 			}
 			return;
 		}	
+		if (!lang || lang === ""){
+			console.log("using config lang");
+			var lang = config.lang;
+		}
 		if (text && ipaddress){
-			res.send(ipaddress + ' will say: ' + text + '\n');
-			googlehome.notify(text, ipaddress, function(res) {
+			res.send(ipaddress + ' will say: ' + text + ' in language ' + lang + '\n');
+			googlehome.notify(text, ipaddress, lang, function(res) {
 			
 			if (debug === "true"){
 				console.log(res + " " + ipaddress);
