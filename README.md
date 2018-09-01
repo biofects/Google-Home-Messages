@@ -88,7 +88,7 @@ For *THAT* choose: *Maker Webhooks*
 ```
 ## Running the tests
 
-Using curl
+Using curl on linux
 ```
 curl -d '{"text":"Hello, Lee. Have a nice day","ipaddress":"192.168.1.26","token":"hejd%ya83!!"}' -H "Content-Type: application/json" -X POST http://192.168.1.113:8092/google-home-messages
 192.168.1.26 will say: Hello, Lee. Have a nice day.
@@ -96,6 +96,16 @@ curl -d '{"text":"Hello, Lee. Have a nice day","ipaddress":"192.168.1.26","token
 
 *Thank you sepodele* [![issue 3](https://github.com/biofects/Google-Home-Messages/issues/3)]
 On windows you need to use double quotes around the json.
+
+Found the solution. In Windows Powershell I have to do this:
+
+curl -d '{\"text\":\"hello\", \"ipaddress\":\"10.0.0.200\", \"token\":\"jabbadabbadu\"}' -H "Content-Type: application/json" -X POST http://10.0.0.5:8092/google-home-messages
+
+And in cmd.exe I have to do this:
+
+curl -d "{\"text\":\"hello\", \"ipaddress\":\"10.0.0.200\", \"token\":\"jabbadabbadu\"}" -H "Content-Type: application/json" -X POST http://10.0.0.5:8092/google-home-messages
+
+Note the single quotes vs double quotes. Stupid Windows..
 
 
 
